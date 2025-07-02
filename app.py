@@ -7,7 +7,7 @@ import io
 app = Flask(__name__)
 
 # Load your trained model
-model = load_model('EN0_model.pkl')
+model = load_model('di_classification_model.keras')
 
 # Define the classes (modify based on your model)
 class_names = ['Acne', 'Eczema', 'Psoriasis', 'Melanoma']
